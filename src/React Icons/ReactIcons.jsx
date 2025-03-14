@@ -1,4 +1,6 @@
 import React from "react";
+
+// importing icons
 import { FaReact } from "react-icons/fa";
 
 const ReactIcons = () => {
@@ -6,6 +8,7 @@ const ReactIcons = () => {
     <div>
       <h1>How to use icons in react js.</h1>
       <p>
+        {/* Usage */}
         <FaReact />
         <FaReact fontSize={50} />
         <FaReact fontSize={50} color="#57afef" />

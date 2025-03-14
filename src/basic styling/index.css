@@ -21,3 +21,19 @@ h1 {
   font-size: 60px;
   text-transform: uppercase;
 }
+
+button {
+  background-color: transparent;
+  border: 2px solid orange;
+  color: orange;
+  padding: 10px 30px;
+  font-size: 29px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background-color: orange;
+  color: #eee;
+}
