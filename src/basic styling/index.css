@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: papayawhip;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Impact";
+  color: orange;
+  border: 5px solid orange;
+  padding: 30px 60px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
